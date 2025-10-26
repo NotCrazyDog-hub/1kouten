@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+@keyframes fallingStars {
+    0% { 
+        background-position: 0 0; 
+    } 
+    100% { 
+        background-position: 0 100%; 
+    }
+}
+
 body {
     height: 100vh;
     background-image: url(../images/space.png);
