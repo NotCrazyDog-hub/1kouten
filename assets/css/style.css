@@ -15,7 +15,10 @@
 
 body {
     height: 100vh;
+    width: 102vw;
+    overflow: hidden;
     background-image: url(../images/starry-night.png);
+    animation: rotation 120s linear infinite;
 }
 
 #ground {
