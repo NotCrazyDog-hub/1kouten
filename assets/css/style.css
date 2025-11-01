@@ -33,3 +33,13 @@ body {
     height: 100%;
     z-index: 1;
 }
+
+#rocket {
+    position: absolute;
+    bottom: 27vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: auto;
+    z-index: 2;
+}
