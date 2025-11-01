@@ -43,3 +43,13 @@ body {
     height: auto;
     z-index: 2;
 }
+
+#fuel {
+    position: absolute;
+    bottom: 25vh;
+    left: calc(50% + 150px);
+    width: 100px;
+    height: auto;
+    z-index: 2;
+    cursor: grab;
+}
