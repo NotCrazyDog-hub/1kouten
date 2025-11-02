@@ -29,3 +29,22 @@ body {
   height: auto;
   z-index: 1;
 }
+
+#dialog {
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
