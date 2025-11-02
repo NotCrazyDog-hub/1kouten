@@ -109,7 +109,7 @@ const app = createApp({
       rocket.style.bottom = "120vh";
 
       setTimeout(() => {
-        this.message = 'Estamos viajando até o planeta "Coração do Pedro"';
+        this.message = "Segure firme, a viagem será bem longa... ";
       }, 2000);
 
       setTimeout(() => {
