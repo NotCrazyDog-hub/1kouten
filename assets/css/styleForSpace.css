@@ -19,3 +19,13 @@ body {
     background-image: url(../images/space.png);
     animation: fallingStars 10s linear infinite;
 }
+
+#rocket {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: auto;
+  z-index: 1;
+}
