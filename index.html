@@ -13,7 +13,14 @@
     <div id="ground"></div>
     <div id="app">
         <img id="rocket" src="assets/images/rocket.png" alt="Foquete">
-        <img id="fuel" src="assets/images/fuel.png" alt="Combustível">
+        <img
+            v-if="showFuel"
+            id="fuel" 
+            src="assets/images/fuel.png" 
+            alt="Combustível"
+            @mousedown="startDrag"
+            :style="{ transform: 'translate(' + fuelX + 'px,' + fuelY + 'px)' }"
+        />
         <div id="dialog">
             {{ message }}
         </div>
