@@ -52,6 +52,11 @@ body {
     height: auto;
     z-index: 2;
     cursor: grab;
+    transition: transform 0.05s linear;
+}
+
+#fuel:active {
+  cursor: grabbing;
 }
 
 #dialog {
