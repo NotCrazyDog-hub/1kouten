@@ -103,10 +103,17 @@ const app = createApp({
 
     launchRocket() {
       const rocket = document.getElementById("rocket");
+
       if (!rocket) return;
 
-      rocket.style.transition = "bottom 3s linear";
-      rocket.style.bottom = "120vh";
+      rocket.src = "../assets/images/rocket_start.png";
+
+      setTimeout(() => {
+        rocket.style.transition = "bottom 3s linear";
+        rocket.style.bottom = "120vh";
+        rocket.style.width = "390px";
+        rocket.style.height = "auto";
+    }, 500);
 
       setTimeout(() => {
         this.message = "Segure firme, a viagem será bem longa... ";
