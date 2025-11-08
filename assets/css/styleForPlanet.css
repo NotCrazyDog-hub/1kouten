@@ -1,5 +1,79 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../images/space.png);
+}
+
+#ground {
+  width: 100%;
+  height: 30vh;
+  position: absolute;
+  bottom: 0;
+  background-image: url(../images/lovegrass.png);
+}
+
+#app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#rocket {
+  position: absolute;
+  bottom: 120vh; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 420px;
+  height: auto; 
+  z-index: 2;
+  transition: bottom 3s ease-in-out, width 1s ease-in-out;
+}
+
+#flag {
+  position: absolute;
+  bottom: 25vh;
+  left: calc(50% + 150px);
+  transform: translateX(-50%);
+  width: 100px;
+  height: auto;
+  transition: opacity 1.2s ease;
+  z-index: 1;
+}
+
+#dialog {
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 3px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  text-align: center;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 1;
+  z-index: 9999;
+  transition: opacity 2s ease-in-out;
 }
