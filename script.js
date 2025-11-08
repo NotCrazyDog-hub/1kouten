@@ -106,7 +106,7 @@ const app = createApp({
 
       if (!rocket) return;
 
-      rocket.src = "../assets/images/rocket_start.png";
+      rocket.src = "../assets/images/rocket_start.gif";
 
       setTimeout(() => {
         rocket.style.transition = "bottom 3s linear";
