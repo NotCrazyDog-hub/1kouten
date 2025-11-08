@@ -15,7 +15,7 @@
 
 body {
     height: 100vh;
-    background-image: url(../images/starry-night.png);
+    background-image: url(../images/starry_night.png);
     animation: rotation 180s linear infinite;
 }
 
