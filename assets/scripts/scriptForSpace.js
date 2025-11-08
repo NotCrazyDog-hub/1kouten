@@ -38,7 +38,8 @@ const app = createApp({
         this.currentMessage = this.messages[this.currentMessageIndex];
         this.currentMessageIndex++;
         setTimeout(() => this.showNextMessage(), 3500);
-      } else {
+      } 
+      else {
         const overlay = document.getElementById("overlay");
         const dialog = document.getElementById("dialog");
 
