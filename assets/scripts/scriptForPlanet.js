@@ -12,11 +12,9 @@ const app = createApp({
     const flag = document.getElementById("flag");
     const dialog = document.getElementById("dialog");
 
-    // Começa escuro → clareia
     setTimeout(() => {
       overlay.style.opacity = 0;
 
-      // Depois que clarear, inicia pouso
       setTimeout(() => {
         this.startLanding(rocket, flag, dialog);
       }, 2000);
@@ -24,10 +22,8 @@ const app = createApp({
   },
   methods: {
     startLanding(rocket, flag, dialog) {
-      // Foguete desce
       rocket.style.bottom = "9vh";
 
-      // Quando encostar no solo (3s depois)
       setTimeout(() => {
         rocket.style.transition = "none";
 
@@ -35,7 +31,6 @@ const app = createApp({
           rocket.style.transition = "opacity 1s ease";
           rocket.style.opacity = 0;
 
-          // 🔥 Agora o preload acontece no lugar certo
           const newRocketImg = new Image();
           newRocketImg.src = "../assets/images/rocket.png";
           newRocketImg.onload = () => {
@@ -49,12 +44,10 @@ const app = createApp({
           };
         }, 600);
 
-        // Mostra bandeira só depois da troca visual do foguete
         setTimeout(() => {
           flag.src = "../assets/images/flag.png";
           flag.style.opacity = 1;
 
-          // 💖 Mensagem só depois da bandeira aparecer
           setTimeout(() => {
             dialog.style.opacity = 1;
             this.message = "Você conquistou o Coração do Pedro";
