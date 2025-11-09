@@ -5,7 +5,7 @@
 Bom dia, boa tarde ou boa noite, mimha princesa! <3 
 Você deve estar se perguntando por que escolhi um nome tão estranho, não é?
 
-A palavra "kouten" é uma adaptação de **"Kōten" (公転)**, que vem do japonês e significa **“translação”**
+A palavra "kouten" é uma adaptação de **"Kōten" (公転)**, que vem do japonês e significa **“translação”**.
 Isso mesmo, é o movimento que a Terra faz ao redor do Sol, completando um ciclo em **1 ano**!
 E o número 1 enfatiza nossa jornada juntos!
 E é por isso que este projeto se chama **1kouten**:  
