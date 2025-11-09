@@ -31,11 +31,15 @@ body {
 }
 
 #dialog {
+  display: flex;            
+  justify-content: center;  
+  align-items: center;      
   position: absolute;
   bottom: 10vh;
   left: 50%;
   transform: translateX(-50%);
-  width: 300px;
+  min-height: 90px;
+  max-width: 550px;
   padding: 10px 15px;
   background-color: rgba(0, 0, 0, 0.9);
   border: 3px solid white;
@@ -43,10 +47,10 @@ body {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
-  text-align: center;
   z-index: 2;
   opacity: 0;
   transition: opacity 2s ease-in;
+  text-align: center;       
 }
 
 #overlay {
