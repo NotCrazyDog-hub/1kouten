@@ -2,7 +2,7 @@
 
 ## 💌 Por que esse nome para um repositório?
 
-Bom dia, boa tarde ou boa noite, mimha princesa! <3 
+Bom dia, boa tarde ou boa noite, minha princesa! <3 
 Você deve estar se perguntando por que escolhi um nome tão estranho, não é?
 
 A palavra "kouten" é uma adaptação de **"Kōten" (公転)**, que vem do japonês e significa **“translação”**.
